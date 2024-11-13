@@ -1,0 +1,70 @@
+-A Descriptive Analysis of the Tv and Movies shows on Amazon Prime from 1920 to 2021.
+
+Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
+
+Problem Statement
+The dashboard is designed to visuals the various metrics in an amazon prime videos dataset between a time period with elements of an exploratory data analysis(EDA) to uncover the trends in the dataset.
+
+- Source:
+- Coulmns:
+   Show_Id, type, title, director,cast, country, date_added, release_year, rating, duration, listed_in and description.
+
+- Data Prepartion
+Dataset needed minimal cleaning to maintain high level of analysis.
+Steps followed
+Step 1 : Standardized column names for easy navigation of dataset
+
+-Data Cleaning and transformation: removed duplicates  based on unique identifiers (Show_id and titles). 
+ Handled empty cells by replacing them with null and unkown for columns such as release date and date added.
+-Outlier Detection: 
+ Outliers were not established as numeric fields were limited to release and date added.
+
+Dashboard Overview
+Cards for Summary Statistics
+Total Titles: Snap_shot ![Screenshot 2024-11-13 175059](https://github.com/user-attachments/assets/16658dd8-a61b-453e-95b3-e75ce1d3d004)
+Total Genres: Snap_shot ![Screenshot 2024-11-13 175211](https://github.com/user-attachments/assets/152ae772-9cf0-4f81-a202-d1b2db0455bc)
+Total Directors: Snap_shot ![Screenshot 2024-11-13 175220](https://github.com/user-attachments/assets/d3a94738-dd9d-4036-adef-826858a6a852)
+Total Ratings:Snap_shot ![Screenshot 2024-11-13 175158](https://github.com/user-attachments/assets/b842be83-b63d-4ef8-8041-538e2f262daa)
+Date Range (Start and End Years): Snap_shot ![Screenshot 2024-11-13 175230](https://github.com/user-attachments/assets/118d993e-58c1-48b7-a46b-4d3fcf3699eb), ![Screenshot 2024-11-13 175237](https://github.com/user-attachments/assets/9eb41ab6-6dbe-44ca-aa84-d637c5fdedd1)
+
+Visualizations:
+Ratings Distribution: A bar chart to show ratings across all titles, helping to understand the general quality perception.
+Genres Distribution:A bar chart to displays the breakdown of genres to highlight content diversity.
+Geographical Distribution: A map visual to illustrate the number of shows available by country.
+Content Type (TV vs. Movies): A doughnut chart to compare the count of TV shows and movies.
+Release Trends: An area chart to visualize the number of titles released over time
+
+Insights
+A 3 page report analyzing the Sales trend, Customer trend and the purchasing analysis was created on Power BI Desktop. A summary page of various insights observed from the analysis was also created as well as a dashbaord to summarise the entire report and give a quick view of the entire analysis. It was then published to Power BI Service.
+
+Following inferences can be drawn from the entire report;
+
+Total Sales
+Total sales of 62.97M was generated withing the time period of November 2018 to December 2019. Highest sales were recorded in the early stage of the data, which could indicate a strong launch of the business or a seasonal demand of products. Total sales and total quantity sold are positively correlated with each other.
+
+Day Sales
+Sales particularly hiked on Mondays, Thursdays and Sundays as well regions such as United Kingdom, Germany and EIRE. At 1,729,479.34, Monday (1) had the highest Maximum Sales Day Of Week and was 337.50% higher than Wednesday (3), which had the lowest Maximum Sales Day Of Week at 395,305.25. Amongst all 6 days of the week, the maximum sales ranged from 395,305.25 to 1,729,479.34.
+
+Seasonal Sales
+August in Year 2019 made up 36.39% of Sum of the total sales with it being the highest sales for the seasons. Followed by April and December respectively.
+
+Regional Sales
+United Kingdom, Germany and EIRE recorded high sales. The was also a spike in seasonal sales during, August, December and April. August in Year 2019 made up 36.39% of Sum of Total Sales.
+
+Customer Trend over Time
+At 583, August had the highest Total Customers and was 577.91% higher than November, which had the lowest Total Customers at 86.
+
+New Customers versus Returning customers.
+﻿At 583, August had the highest total customers and was 577.91% higher than November, which had the lowest Total Customers at 86.﻿
+
+Purchasing Product analysis
+﻿In December, the transaction total of 2019 made up 15.73% of the total transaction. The total for 2018 and 2019 diverged the most in December when 2018 weas 16405 higher than 2019.
+
+Most Purchased Product
+The number of transactions and total quantity sold are negatively correlated with each other. Cream Hanging Heart T-Light Holder accounted for 0.44% of Sum of transactions. Quantity sold and the number of transactions diverged the most when the with Paper Craft Little Birdie, when with the total quantity being 80994 higher than the number of transactions.
+
+Top 10 Products sold
+At 1,002,718.10, Paper Craft Little Birdie had the highest quantity sold and was 3,348.18% higher than Victorian Glass Hanging T-Light, which had the lowest quantity sold at 29,079.63. Paper Craft Little Birdie accounted for 72.25% of the sales. Across all 10 products sold, the total sales ranged from 29,079.63 to 1,002,718.10.
+
+Most Purchased product per Country
+﻿United Kingdom with its respective most product sold, Paper Craft Little Birdie made up 74.46% of Max of the total quantity. Rabbit Night Light had the highest average Max of total quantity at 4077, followed by Mini Paint Set Vintage, Ice Cream Sundae Lip Gloss, and Red Harmonica In Box.
