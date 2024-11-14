@@ -22,11 +22,11 @@ Step 1 : Standardized column names for easy navigation of dataset
 Dashboard Overview
 Dashbaord Snap_Shot:![Screenshot 2024-11-14 134038](https://github.com/user-attachments/assets/1deb5004-8430-42b0-91c3-3141d15f54cf)
 Cards for Summary Statistics
-Total Titles: Snap_shot ![Screenshot 2024-11-13 175059](https://github.com/user-attachments/assets/16658dd8-a61b-453e-95b3-e75ce1d3d004)
-Total Genres: Snap_shot ![Screenshot 2024-11-13 175211](https://github.com/user-attachments/assets/152ae772-9cf0-4f81-a202-d1b2db0455bc)
-Total Directors: Snap_shot ![Screenshot 2024-11-14 123009](https://github.com/user-attachments/assets/fd9f1b68-3a0f-4486-a2fe-eea3c1f1cc05)
-Total Ratings:Snap_shot ![Screenshot 2024-11-13 175158](https://github.com/user-attachments/assets/b842be83-b63d-4ef8-8041-538e2f262daa)
-Date Range (Start and End Years): Snap_shot ![Screenshot 2024-11-13 175230](https://github.com/user-attachments/assets/118d993e-58c1-48b7-a46b-4d3fcf3699eb), 
+ ![Screenshot 2024-11-13 175059](https://github.com/user-attachments/assets/16658dd8-a61b-453e-95b3-e75ce1d3d004)
+ ![Screenshot 2024-11-13 175211](https://github.com/user-attachments/assets/152ae772-9cf0-4f81-a202-d1b2db0455bc)
+ ![Screenshot 2024-11-14 123009](https://github.com/user-attachments/assets/fd9f1b68-3a0f-4486-a2fe-eea3c1f1cc05)
+ ![Screenshot 2024-11-13 175158](https://github.com/user-attachments/assets/b842be83-b63d-4ef8-8041-538e2f262daa)
+ ![Screenshot 2024-11-13 175230](https://github.com/user-attachments/assets/118d993e-58c1-48b7-a46b-4d3fcf3699eb), 
 ![Screenshot 2024-11-13 175237](https://github.com/user-attachments/assets/9eb41ab6-6dbe-44ca-aa84-d637c5fdedd1)
 
 Visualizations:
