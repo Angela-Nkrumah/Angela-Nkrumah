@@ -20,6 +20,7 @@ Step 1 : Standardized column names for easy navigation of dataset
  Outliers were not established as numeric fields were limited to release and date added.
 
 Dashboard Overview
+Dashbaord Snap_Shot:![Screenshot 2024-11-12 182434](https://github.com/user-attachments/assets/14ea8fb3-95a7-4170-b2ae-e7dfc9c9af9e)
 Cards for Summary Statistics
 Total Titles: Snap_shot ![Screenshot 2024-11-13 175059](https://github.com/user-attachments/assets/16658dd8-a61b-453e-95b3-e75ce1d3d004)
 Total Genres: Snap_shot ![Screenshot 2024-11-13 175211](https://github.com/user-attachments/assets/152ae772-9cf0-4f81-a202-d1b2db0455bc)
@@ -35,36 +36,21 @@ Content Type (TV vs. Movies): A doughnut chart to compare the count of TV shows 
 Release Trends: An area chart to visualize the number of titles released over time
 
 Insights
-A 3 page report analyzing the Sales trend, Customer trend and the purchasing analysis was created on Power BI Desktop. A summary page of various insights observed from the analysis was also created as well as a dashbaord to summarise the entire report and give a quick view of the entire analysis. It was then published to Power BI Service.
+Ratings Per Total Show
+Count of show_id was highest for 13+ at 2,117, followed by 16+ and ALL.
+﻿﻿Across all 25 rating, Count of show_id ranged from 1 to 2,117.﻿﻿
 
-Following inferences can be drawn from the entire report;
+Genres Per total show
+﻿Across all 512 genres,The show_id ranged from 1 to 959.
+Drama shows were viewed the most withing the time period of the datset at 959, followed by Comedy and Drama, Suspense.﻿﻿
 
-Total Sales
-Total sales of 62.97M was generated withing the time period of November 2018 to December 2019. Highest sales were recorded in the early stage of the data, which could indicate a strong launch of the business or a seasonal demand of products. Total sales and total quantity sold are positively correlated with each other.
+Movie shows and Tv shows
+﻿Movie shows appeared to be preferred much more over Tv shows.That is,(7,814) for movie shows and (1,854) TV Show.
 
-Day Sales
-Sales particularly hiked on Mondays, Thursdays and Sundays as well regions such as United Kingdom, Germany and EIRE. At 1,729,479.34, Monday (1) had the highest Maximum Sales Day Of Week and was 337.50% higher than Wednesday (3), which had the lowest Maximum Sales Day Of Week at 395,305.25. Amongst all 6 days of the week, the maximum sales ranged from 395,305.25 to 1,729,479.34.
-
-Seasonal Sales
-August in Year 2019 made up 36.39% of Sum of the total sales with it being the highest sales for the seasons. Followed by April and December respectively.
-
-Regional Sales
-United Kingdom, Germany and EIRE recorded high sales. The was also a spike in seasonal sales during, August, December and April. August in Year 2019 made up 36.39% of Sum of Total Sales.
-
-Customer Trend over Time
-At 583, August had the highest Total Customers and was 577.91% higher than November, which had the lowest Total Customers at 86.
-
-New Customers versus Returning customers.
-﻿At 583, August had the highest total customers and was 577.91% higher than November, which had the lowest Total Customers at 86.﻿
-
-Purchasing Product analysis
-﻿In December, the transaction total of 2019 made up 15.73% of the total transaction. The total for 2018 and 2019 diverged the most in December when 2018 weas 16405 higher than 2019.
-
-Most Purchased Product
-The number of transactions and total quantity sold are negatively correlated with each other. Cream Hanging Heart T-Light Holder accounted for 0.44% of Sum of transactions. Quantity sold and the number of transactions diverged the most when the with Paper Craft Little Birdie, when with the total quantity being 80994 higher than the number of transactions.
-
-Top 10 Products sold
-At 1,002,718.10, Paper Craft Little Birdie had the highest quantity sold and was 3,348.18% higher than Victorian Glass Hanging T-Light, which had the lowest quantity sold at 29,079.63. Paper Craft Little Birdie accounted for 72.25% of the sales. Across all 10 products sold, the total sales ranged from 29,079.63 to 1,002,718.10.
-
-Most Purchased product per Country
-﻿United Kingdom with its respective most product sold, Paper Craft Little Birdie made up 74.46% of Max of the total quantity. Rabbit Night Light had the highest average Max of total quantity at 4077, followed by Mini Paint Set Vintage, Ice Cream Sundae Lip Gloss, and Red Harmonica In Box.
+Total Shows Per Release
+Movies seem to be much prefered on the streaming site within 1920 to 2021 with the average of movies viewed withing that perioed to be 78.14 higher than tv shows which is 31.42.
+﻿2021 movie shows made up 11.78% of the overall shows viewed on Amazon Prime. 
+In 2021, the count of Movies surpassed TV Shows by 836, marking the largest divergence between the two categories.
+Total Shows Per Country
+Analyzing countries per shows using a decomposition tree, the United State, seems to 
+﻿
