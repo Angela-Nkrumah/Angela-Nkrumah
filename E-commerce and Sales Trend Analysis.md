@@ -130,7 +130,6 @@ SUMMARIZE(
 ![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
 
 # Insights
-
 A 3 page report analyzing the Sales trend, Customer trend and the purchasing analysis was created on Power BI Desktop. A summary page of various insights observed from the analysis was also created as well as a dashbaord to summarise the entire report and give a quick view of the entire analysis. It was then published to Power BI Service.
 
 Following inferences can be drawn from the entire report;
@@ -145,7 +144,7 @@ Sales particularly hiked on Mondays, Thursdays and Sundays as well regions such 
 At 1,729,479.34,  Monday (1) had the highest Maximum Sales Day Of Week and was 337.50% higher than Wednesday (3), which had the lowest Maximum Sales Day Of Week at 395,305.25.
 Amongst all 6 days of the week, the maximum sales ranged from 395,305.25 to 1,729,479.34.
 
-  ### Seasonal Sales
+### Seasonal Sales
 August in Year 2019 made up 36.39% of Sum of the total sales with it being the highest sales for the seasons.
 Followed by April and December respectively.
 
@@ -172,13 +171,59 @@ Quantity sold and the number of transactions diverged the most when the with Pap
 
  ### Top 10 Products sold
  At 1,002,718.10, Paper Craft Little Birdie had the highest quantity sold and was 3,348.18% higher than Victorian Glass Hanging T-Light, which had the lowest quantity sold at 29,079.63.
-Paper Craft Little Birdie accounted for 72.25% of the sales.
-Across all 10 products sold, the total sales ranged from 29,079.63 to 1,002,718.10.
+ Paper Craft Little Birdie accounted for 72.25% of the sales.
+ Across all 10 products sold, the total sales ranged from 29,079.63 to 1,002,718.10.
 
  ### Most Purchased product per Country
  ﻿United Kingdom with its respective most product sold, Paper Craft Little Birdie made up 74.46% of Max of the total quantity.
  Rabbit Night Light had the highest average Max of total quantity at 4077, followed by Mini Paint Set Vintage, Ice Cream Sundae Lip Gloss, and Red Harmonica In Box.
 
- Conclusion
- The E-commerce retail shop, can increase sales in general by increasing product quantity in the United Kingdom, Germany and Eire due to their high sales records and also pay attention to the products most purchased in the regions with low sales records. These products purchased most in these regions when strategized, can interest customers, which will increase cutomer interaction and in return increase sales. 
+ ### Top 10 Customers with Most Purchased
+ Customer Id 16446 purchased the most product withing Novemeber 2018 to December 2019 with a total purchased of 80995. Followd by Customer ID number 14641, also with a total purchase 
+ number of 34760. The least purchased amongst the top 10 was Customer Id number 17450 with a total purchase count of 5354.
+
+  ### Recomemndation
+  1. Optimize Marketing Plans Using Sales Trends
+  2. Peak Sales Times: Since the early stages saw the largest sales, think about examining the marketing or promotional initiatives that were carried out during this time. To increase 
+  sales, repeat these tactics at other times.
+   Seasonal Demand: Plan and allot marketing resources for the months of August, December, and April, when sales tend to peak. Think of introducing new product lines, discounts, or     
+  exclusive marketing for certain months.
+
+3. Make Inventory Management Better
+  Stock Levels: Make sure you keep enough product on hand for when demand is at its highest (Mondays, Thursdays, and Sundays). To avoid stockouts, increase the quantity of popular items 
+  like "Paper Craft Little Birdie".
+  Regional Inventory: Make sure that areas such as the UK, Germany, and EIRE continue to have higher levels of inventory. Customer pleasure and prompt fulfillment are ensured by this.
+
+4. Focused Interaction with Customers
+  Highest Number of Customers: August has the most customers overall. Use this month to run focused promotions that will increase sales and engagement. To draw in new business and keep 
+  existing ones, implement loyalty programs and promotions.
+  Customer Retention: Use techniques to turn prospects into loyal patrons, especially in high-demand months. Exclusive incentives and tailored communications can aid in keeping these 
+  clients.
+
+5 Emphasizing Products and Adding Variety
+  Best-Selling Items: Focus on marketing best-selling items such as "Paper Craft Little Birdie." To boost sales, emphasize these in marketing efforts and think about combining them with 
+  other items.
+  Diversification: Examine the reasons behind the reduced sales of products such as the "Victorian Glass Hanging T-Light" and determine if they require improved marketing or even a 
+  redesign.
+
+6. Enhance the Client Experience
+   consumer input and improvement: Gather consumer feedback on a regular basis, particularly on well-liked products and at times of high sales. Utilize these suggestions to enhance the 
+   caliber of the products, the packaging, and the delivery options.
+   Customer service: To effectively manage more questions and problems, make sure there is strong customer service during times of high sales.
+
+7. Make Strategic Decisions with Data
+   Data-Based Approaches: To improve pricing strategies, apply the knowledge gained from the association between the total quantity sold and the number of transactions. Offer discounts 
+   for greater purchases, for example, to encourage larger transactions.
+   Trend Analysis: Keep an eye out for new patterns by continuously observing consumer behavior and sales trends. Make proactive strategy adjustments and remain ahead of market trends 
+   with the help of this data.
+
+8. Region Expansion
+   High-Performing Regions: Since the United Kingdom, Germany, and EIRE are performing well, consider expanding marketing and distribution channels in these regions.
+
+9. Sales Optimization on Specific Days
+   Day-Specific Promotions: Implement special promotions on days with high sales like Mondays, Thursdays, and Sundays. This could further boost sales on these days and even out sales 
+   throughout the week.
+
+ ### Conclusion
+The E-commerce retail shop, can increase sales in general by increasing product quantity in the United Kingdom, Germany and Eire due to their high sales records and also pay attention to the products most purchased in the regions with low sales records. These products purchased most in these regions when strategized, can interest customers, which will increase cutomer interaction and in return increase sales. Customer satisfaction should als be pioritized to encourage more new customers and also ensure new customers remain as permanent customers of the business.
  
