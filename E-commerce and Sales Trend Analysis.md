@@ -116,11 +116,11 @@ SUMMARIZE(
 )
  
 - Step 8 :Four(4) cards and three(3) filters were added to the dashboard to identify the Total Sales, Total Purchased and Average Price as well as the various 4 quaters respectively.
-Snap Shot of cards![Screenshot 2024-11-13 124111](https://github.com/user-attachments/assets/c2470c75-48a8-4f14-a768-195bcafa6320)
+                  ![Screenshot 2024-11-13 124111](https://github.com/user-attachments/assets/c2470c75-48a8-4f14-a768-195bcafa6320)
                   ![Screenshot 2024-11-13 124139](https://github.com/user-attachments/assets/5398f079-1407-4752-a45f-d786c206d794)
                   ![Screenshot 2024-11-13 124155](https://github.com/user-attachments/assets/816fbe7d-0375-4e6d-b695-a2c4c5195b3e)
    
-           Although, by default, while calculating average, blank values are ignored.
+           Although, by default, while calculating, blank values are ignored.
 - Step 10 : 3 bar charts were included to analyze the seasonal trends, yearly and monthly trends as well as the quartely trend. 2 tables were also included to visualize the top 10 products with the highest revenue and the top 10 customer Id. A map was included in the dashbaord to visualize the varios countries. Filters of each country's total number, total sales and total quantity purchased were aslo included.
 - A new table with calculated measures was created to group the various countries and their customer transactions, for visualization.
   Snap Shot of new customer transactions per country table. ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
@@ -178,3 +178,7 @@ Across all 10 products sold, the total sales ranged from 29,079.63 to 1,002,718.
  ### Most Purchased product per Country
  ﻿United Kingdom with its respective most product sold, Paper Craft Little Birdie made up 74.46% of Max of the total quantity.
  Rabbit Night Light had the highest average Max of total quantity at 4077, followed by Mini Paint Set Vintage, Ice Cream Sundae Lip Gloss, and Red Harmonica In Box.
+
+ Conclusion
+ The E-commerce retail shop, can increase sales in general by increasing product quantity in the United Kingdom, Germany and Eire due to their high sales records and also pay attention to the products most purchased in the regions with low sales records. These products purchased most in these regions when strategized, can interest customers, which will increase cutomer interaction and in return increase sales. 
+ 
