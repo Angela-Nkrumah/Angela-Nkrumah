@@ -126,8 +126,8 @@ SUMMARIZE(
   Snap Shot of new customer transactions per country table. ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
   
  
- # Report Snapshot (Power BI DESKTOP)
-![Dashboard_upload](https://user-images.githubusercontent.com/102996550/174074051-4f08287a-0568-4fdf-8ac9-6762e0d8fa94.jpg)
+ # Dashboard Snapshot (Power BI DESKTOP)
+![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
 
 # Insights
 
