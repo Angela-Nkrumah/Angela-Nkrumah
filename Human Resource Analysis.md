@@ -2,63 +2,76 @@
 Human Resource Dashboard Analysis
 
 3. Introduction
-4. This project creates a dashboard for HR managers to understand employee data, like how many employees there are, why employees leave, hiring needs, and where employees are located.
+This project was designed creates a dashboard for the HR managers of a company to understand employee data, such as how many employees there are, why employees leave, hiring needs, and where employees are located.
    
 6. Goals
 Understand employees better by tracking how often new hires need to be brought in, why employees leave and the total employees as well as their location.
 
 8. Data Overview
 Data was sourced from: https://www.kaggle.com/. With it key columns:Emplyee Number, Birth Date, Hiring Date, Exist Date, Status, Hiring, Exit, DC, Designation, OC, Office, Ec, Exist Cause, Days Served, Hiring Quality, Age, Scored, Required.
-
-Mention any cleanup you did to get the data ready.
-Data was cleaned using excel to remove duplicates, replace empty cells, standardized and ensure consistency.
+Snap_shot of dashboard: ![Screenshot 2024-11-16 150334](https://github.com/user-attachments/assets/e1260abe-0042-4bf6-80ac-75ce453ce85b)
+7. Data Cleaning
+Data was cleaned, nonetheless, necessary measures were undertaken to ensure its intergrity.
+I standardized column headers by ensuring that they were consistently formatted and bolded to help in readability.
+Duplicates, missing data and inconsistent data were rechecked for all columns to confirm that none existed in the dataset.
+![Screenshot 2024-11-16 130035](https://github.com/user-attachments/assets/40d0add5-9790-4470-bf4b-2a08cfb631e2)
 
 9. Dashboard Details
-Horizontal Bar Charts:
-Employees by Position: Shows how many people work in each job.
-Employees by Exit Cause: Shows why employees left the company.
-Vertical Bar Chart:
-Employees by Age: Shows employee numbers by age group.
-Pie Charts:
-Employees by Quarter: Shows how many employees you have each quarter.
-Employee Availability: Shows how many are active vs. left the company.
-Hiring Needs: Shows open positions that need filling.
-Cards and Gauges:
-Total Employees: Shows total employee count.
-Employee Score: Shows employee performance.
-Hiring Quality: Shows a score for hiring effectiveness.
-Map:
-Employee Locations: Shows where employees are located on a map.
-Filters:
-Allows you to see data for active or departed employees.
-11. Key Findings
-Write down any important things you noticed in the data, such as:
-Common reasons why employees leave.
-Patterns in age or location that might affect HR policies.
-Which areas need more hires.
-12. Tools Used
-List what you used to create this dashboard:
-Software: Power BI, Excel, or another tool.
-Programming Languages: If you used any code, like Python or R.
-13. Ideas for Improvement
-Suggest things that could make the dashboard even better:
-Adding a chart to see turnover trends over time.
-Adding a prediction for future hiring needs.
-14. How to Use This Dashboard
-Give simple instructions for someone looking at your dashboard:
-How to switch between charts or use filters to view different parts.
-15. Files and Folder Structure
-Explain the files and folders in your GitHub repo:
-bash
-Copy code
-├── README.md         # This document
-├── data/             # Where the data files are
-├── images/           # Screenshots of the dashboard
-├── scripts/          # Any code used for data prep
-└── dashboard.pbix    # The Power BI or dashboard file
-16. Screenshots of the Dashboard
-Include pictures of your dashboard to help people understand the visuals.
-17. Summary
-Summarize why this dashboard is helpful to HR and how it supports decisions.
-18. References
-Mention any sources for the data or any other resources you used.
+Horizontal Bar Charts: Three horizontal bar charts were created to visualize the following; employees by position(to show how many people work in the company) and employees by exit cause (why employees left the company). 
+
+Vertical Bar Chart:A vertical chart to show employees by thier age group
+
+Pie Charts:Three Pie charts were created to show the hiring quality of the employees of the company ranging from 0 -4,the future human resource needed for the company ranging from available, future, urgent and immediately which is decided based on the date of retirement of each employee.Lastly a pie chart to annalyze the number of employees freshly hired and the number of remaining employees.
+
+Cards and Gauges: Two gauges were created to visualize the employee performance and the score for hiring effectiveness. A card was created to show the total employees of the company.
+
+Map: A map was also created to show where the employees of the company are located.
+
+Filters: Lastly a filter was created to help you see the data for the active or departed employees.
+
+10. Insights
+Across all designations, the total of employees ranged from 43 to 60. With an overall count of employees at 306.
+At a total number of 60, drivers had the highest employees and was 39.53% higher than clerks, which had the lowest number of employees at 43. Drivers account for 19.61% of the total employees.
+The hiring score of 0 accounted for the highes number of employees at 46.08%, followed by hiring quality of 1 at 29.41% with hiring quality number of 2 following at 15.03%.
+The company has a total of 27 employees in their 20's followed by the rest of the employees being in their 30's which shows a good range of young minds and experienced workers.
+With a total count of 86 employees at Washington, it appears to be the place of residence for most employees followed by Los Angeles, New York and London which had the lowest count of employees at 60. 
+At 86, Washington had the highest number of employees and was 43.33% higher than London, which had the lowest number of employees at 60.
+73.2% of the total number of employees present on the data seem to have retired which leaves 23.1% of the total number of employees still present at the comapny. Looking at the present state of the company, a total of 6 new employees need to be employed and 3 in the near future.
+Within the time period the data was collected, 101 employees were freshly hired, adding up to the 205(66.99%) of existing workers.
+82 employees seem to have left the company for no reason with 54 employees leaving the company wihtout give any specific reason. 49 employees left the company due to better opportunities elsewhere, with 44 employees being fired and 42 retiring. While 35 employees left the company due to natural causes.
+
+11. Recommendatios
+Optimize Employee Retention
+Investigate why so many employees (82) left without a clear reason and address any underlying concerns.
+Create an exit interview process to understand why employees leave, especially those seeking better opportunities (49 employees).
+Enhance workplace benefits and career growth opportunities to reduce turnover.
+
+Focus on Workforce Planning
+With 73.2% of employees retired, prioritize hiring to fill immediate gaps. Employ 6 new hires now and plan for 3 more soon to sustain operations.
+Explore hiring younger talent to maintain a balanced age demographic, ensuring a mix of experience and innovation.
+
+Leverage Washington's Strength
+Washington, with the highest number of employees (86), appears to be a hub. Consider expanding operations or recruitment efforts in this area for its existing workforce potential.
+Improve Hiring Quality
+
+Address the hiring quality gap, as 46.08% of employees are rated at the lowest hiring score (0).
+Revamp the hiring process to focus on attracting skilled and high-quality candidates, potentially by refining job descriptions or targeting more qualified talent pools.
+Strengthen Clerk Recruitment
+Clerks, with the lowest count of employees (43), might indicate a role requiring extra attention. Evaluate if the workload is manageable or if additional hiring is needed.
+
+Targeted Engagement Programs
+Drivers, being the largest group (19.61%), could benefit from specific engagement programs to boost morale and productivity, ensuring their retention.
+
+Diversify Locations
+Balance employee distribution across locations to reduce dependency on Washington and strengthen representation in cities like London, which has the lowest count (60).
+
+Create a Succession Plan
+With a significant percentage of employees in their 30s, develop a succession planning strategy to ensure smooth transitions as the workforce ages.
+
+Communicate Growth Opportunities
+Promote internal mobility to retain talent. Employees might leave for better opportunities because of unclear growth paths within the company.
+
+Enhance Data Tracking
+Use better data tracking systems to monitor employee performance, retention, and satisfaction, ensuring continuous improvement in HR strategies.
+
+
