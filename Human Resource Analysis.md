@@ -1,6 +1,6 @@
 1. Project Title
    
-Human Resource Dashboard Analysis
+ Human Resource Dashboard Analysis
 
 3. Introduction
 This project was designed to creates a dashboard for the HR managers of a company in an effort to understand employee data, such as how many employees there are, why employees leave, hiring needs, and where employees are located.
@@ -84,7 +84,7 @@ Pie Charts: Three Pie charts were created to show the hiring quality of the empl
  Enhance Data Tracking
  Use better data tracking systems to monitor employee performance, retention, and satisfaction, ensuring continuous improvement in HR strategies.
 
- 13. Summary
+13. Summary
  The company has a stable workforce but faces challenges like high employee turnover and a need for better retention strategies. Drivers are the largest group, clerks the smallest, and 
  Washington is a key location. With many employees 
  retiring, hiring new talent, especially younger workers, is crucial. Improving hiring quality and understanding why employees leave can help strengthen the company for the future.    
