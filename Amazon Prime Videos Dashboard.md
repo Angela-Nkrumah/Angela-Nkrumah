@@ -1,7 +1,5 @@
 -A Descriptive Analysis of the Tv and Movies shows on Amazon Prime from 1920 to 2021.
 
-Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
-
 Problem Statement
 The dashboard is designed to visuals the various metrics in an amazon prime videos dataset between a time period with elements of an exploratory data analysis(EDA) to uncover the trends in the dataset.
 
