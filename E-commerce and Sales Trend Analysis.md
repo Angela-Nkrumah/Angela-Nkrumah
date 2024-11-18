@@ -120,7 +120,7 @@ SUMMARIZE(
 - Step 8 :Four(4) cards and three(3) filters were added to the dashboard to identify the Total Sales, Total Purchased and Average Price as well as the various 4 quaters respectively.
                   ![Screenshot 2024-11-13 124111](https://github.com/user-attachments/assets/c2470c75-48a8-4f14-a768-195bcafa6320)
                   ![Screenshot 2024-11-13 124139](https://github.com/user-attachments/assets/5398f079-1407-4752-a45f-d786c206d794)
-                  ![Screenshot 2024-11-13 124155](https://github.com/user-attachments/assets/816fbe7d-0375-4e6d-b695-a2c4c5195b3e)
+   ![Screenshot 2024-11-13 124155](https://github.com/user-attachments/assets/816fbe7d-0375-4e6d-b695-a2c4c5195b3e)
    
            Although, by default, while calculating, blank values are ignored.
 - Step 10 : 3 bar charts were included to analyze the seasonal trends, yearly and monthly trends as well as the quartely trend. 2 tables were also included to visualize the top 10 products with the highest revenue and the top 10 customer Id. A map was included in the dashbaord to visualize the varios countries. Filters of each country's total number, total sales and total quantity purchased were aslo included.
