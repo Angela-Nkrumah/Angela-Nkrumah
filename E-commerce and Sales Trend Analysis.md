@@ -4,15 +4,15 @@
 
 ## Problem Statement
 
-This report is designed to investigate and understand the trends and patterns in an e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales.
+This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales. A 3 page report and a dashboard to summarize and give a quick view of the entire report was created.
+Link to report: https://drive.google.com/file/d/1wspQ-Oplk1X5ubJi1p2zhiFAb9SCaP8a/view?usp=sharing
 
-### Data source: Data was sourced from 
-
-
+### Data Overview
+Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business. The dataset contained eight (8) columns; Transaction_No, Date, Product_No, Product, Price, Quantity, Customer_No and Country.
+Data was cleaned using sql queries whereas DAX was used in generating further analysis.
 
 ### Steps followed 
-
-- Step 1 : Load data into MySQL to clean and analyze data by using Data Definition Language (DDL) and Data Manipulation Languages (DML) to clean and standardize dataset to prepare for further analysis.
+- Step 1 : Load data into MySQL to clean and analyze data by using Data Definition Language (DDL) and Data Manipulation Languages (DML) to clean and standardize dataset for further analysis.
 - Key SQL Queries
 - SQL Queries to import data
   CREATE TABLE `sales_transactions` (
@@ -88,8 +88,8 @@ WHERE
    ProductRank = 
 RANKX(
     FILTER(
-        'Countries and thier most purchased products',
-        'Countries and thier most purchased products'[Country] = EARLIER('Countries and thier most purchased products'[Country])
+        'Countries and their most purchased products',
+        'Countries and their most purchased products'[Country] = EARLIER('Countries and thier most purchased products'[Country])
     ),
     'Countries and thier most purchased products'[TotalQuantity],
     ,
@@ -111,8 +111,8 @@ SUMMARIZE(
    TopProductsByCountry = 
 SUMMARIZE(
     FILTER(
-        'Countries and thier most purchased products',
-        'Countries and thier most purchased products'[ProductRank] = 1 && 'Countries and thier most purchased products'[Country] <> "unspecified" && NOT ISBLANK('Countries and thier most purchased products'[Country])
+        'Countries and their most purchased products',
+        'Countries and their most purchased products'[ProductRank] = 1 && 'Countries and thier most purchased products'[Country] <> "unspecified" && NOT ISBLANK('Countries and thier most purchased products'[Country])
     ),
     'Countries and thier most purchased products'[Country],
     "TotalQuantity", MAX('Countries and thier most purchased products'[TotalQuantity]),
@@ -130,13 +130,10 @@ SUMMARIZE(
   Snap Shot of new customer transactions per country table. ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
   
  
- # Dashboard Snapshot (Power BI DESKTOP)
+ # Dashboard Snapshot:
 ![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
 
 # Insights
-A 3 page report analyzing the Sales trend, Customer trend and the purchasing analysis was created on Power BI Desktop. A summary page of various insights observed from the analysis was also created as well as a dashbaord to summarise the entire report and give a quick view of the entire analysis. It was then published to Power BI Service.
-
-Following inferences can be drawn from the entire report;
 
 ### Total Sales
 Total sales of 62.97M was generated withing the time period of November 2018 to December 2019.
