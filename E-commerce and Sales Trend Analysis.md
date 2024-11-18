@@ -118,6 +118,7 @@ SUMMARIZE(
 )
  
 - Step 8 :Three(3) cards and four (4) filters were added to the dashboard to identify the Total Sales, Total Purchased and Average Price as well as the various 4 quaters respectively.
+  
    ![Screenshot 2024-11-13 124111](https://github.com/user-attachments/assets/c2470c75-48a8-4f14-a768-195bcafa6320)
    ![Screenshot 2024-11-13 124139](https://github.com/user-attachments/assets/5398f079-1407-4752-a45f-d786c206d794)
    ![Screenshot 2024-11-13 124155](https://github.com/user-attachments/assets/816fbe7d-0375-4e6d-b695-a2c4c5195b3e)
