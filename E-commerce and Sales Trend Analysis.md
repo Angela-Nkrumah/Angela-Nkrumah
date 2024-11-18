@@ -226,5 +226,5 @@ Quantity sold and the number of transactions diverged the most when the with Pap
    throughout the week.
 
  ### Conclusion
-The E-commerce retail shop, can increase sales in general by increasing product quantity in the United Kingdom, Germany and Eire due to their high sales records and also pay attention to the products most purchased in the regions with low sales records. These products purchased most in these regions when strategized, can interest customers, which will increase cutomer interaction and in return increase sales. Customer satisfaction should als be pioritized to encourage more new customers and also ensure new customers remain as permanent customers of the business.
+The E-commerce retail shop, can increase sales in general by increasing product quantity in the United Kingdom, Germany and Eire due to their high sales records and also attention needs to be given to the products most purchased in the regions with low sales records. These products purchased most in these regions when strategized, can interest customers, which will increase customer interaction and in return increase sales. Customer satisfaction should also be prioritized to encourage more new customers and also ensure new customers remain as permanent customers of the business.
  
