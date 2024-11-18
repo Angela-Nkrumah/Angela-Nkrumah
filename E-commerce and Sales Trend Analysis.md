@@ -1,7 +1,5 @@
 # Retail Sales Exploratory Analysis (EDA)
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
-
 ## Problem Statement
 
 This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales. A 3 page report and a dashboard to summarize and give a quick view of the entire report was created.
