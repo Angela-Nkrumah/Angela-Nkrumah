@@ -7,13 +7,13 @@ The dashboard is designed to visuals the various metrics in an amazon prime vide
 - Coulmns:
    Show_Id, type, title, director,cast, country, date_added, release_year, rating, duration, listed_in and description.
 
-- Data Prepartion
+- Data Preparation
 Dataset needed minimal cleaning to maintain high level of analysis.
 Steps followed
 Step 1 : Standardized column names for easy navigation of dataset
 
 -Data Cleaning and transformation: removed duplicates based on unique identifiers (Show_id and titles). 
- Handled empty cells by replacing them with null and unkown for columns such as release date and date added.
+ Handled empty cells by replacing them with null and unknown for columns such as release date and date added.
 -Outlier Detection: 
  Outliers were not established as numeric fields were limited to release and date added.
 
@@ -21,17 +21,17 @@ Dashboard Overview
 Dashbaord Snap_Shot:![Screenshot 2024-11-14 134038](https://github.com/user-attachments/assets/1deb5004-8430-42b0-91c3-3141d15f54cf)
 Cards for Summary Statistics
 
- ![Screenshot 2024-11-13 175059](https://github.com/user-attachments/assets/16658dd8-a61b-453e-95b3-e75ce1d3d004)
- ![Screenshot 2024-11-13 175211](https://github.com/user-attachments/assets/152ae772-9cf0-4f81-a202-d1b2db0455bc)
- ![Screenshot 2024-11-14 123009](https://github.com/user-attachments/assets/fd9f1b68-3a0f-4486-a2fe-eea3c1f1cc05)
- ![Screenshot 2024-11-13 175158](https://github.com/user-attachments/assets/b842be83-b63d-4ef8-8041-538e2f262daa)
- ![Screenshot 2024-11-13 175230](https://github.com/user-attachments/assets/118d993e-58c1-48b7-a46b-4d3fcf3699eb), 
- ![Screenshot 2024-11-13 175237](https://github.com/user-attachments/assets/9eb41ab6-6dbe-44ca-aa84-d637c5fdedd1)
-
+ ![Screenshot 2024-11-18 195815](https://github.com/user-attachments/assets/790435f9-5933-4a74-9a68-dfa02ed5ad6d)
+ ![Screenshot 2024-11-18 200104](https://github.com/user-attachments/assets/f7b38f8d-42a6-431a-af5e-a5d78d16287b)
+ ![Screenshot 2024-11-18 200132](https://github.com/user-attachments/assets/50b68233-9cf9-4e99-88f4-028c1305d211)
+ ![Screenshot 2024-11-18 200147](https://github.com/user-attachments/assets/21c7a6b2-a776-4496-9f25-c1bbd5a24dc3)
+ ![Screenshot 2024-11-18 200205](https://github.com/user-attachments/assets/e122fcf5-ea84-4cbc-be6a-51642945aeeb)
+ ![Screenshot 2024-11-18 200218](https://github.com/user-attachments/assets/1dc868fa-3fa6-4dac-b02b-7e241d688579)
+ 
 Visualizations:
 Ratings Distribution: A bar chart to show ratings across all titles, helping to understand the general quality perception.
-Genres Distribution:A bar chart to displays the breakdown of genres which highlights content diversity.
-Geographical Distribution: A map visual to illustrate the number of shows available by country as well as the country's predominent genres.
+Genres Distribution: A bar chart to displays the breakdown of genres which highlights content diversity.
+Geographical Distribution: A map visual to illustrate the number of shows available by country as well as the country's predominant genres.
 Content Type (TV vs. Movies): A doughnut chart to compare the count of TV shows and movies.
 Release Trends: An area chart to visualize the number of titles released over time
 
@@ -41,14 +41,14 @@ Count of show_id was highest for 13+ at 2,117, followed by 16+ and ALL.
 ﻿﻿Across all 25 rating, Count of show_id ranged from 1 to 2,117.﻿﻿
 
 Genres Per total show
-﻿Across all 512 genres,The show_id ranged from 1 to 959.
-Drama shows were viewed the most withing the time period of the datset at 959, followed by Comedy and Drama, Suspense.﻿﻿
+﻿Across all 512 genres, the show_id's ranged from 1 to 959.
+Drama shows were viewed the most withing the time period of the dataset at 959, followed by Comedy and Drama, Suspense.﻿﻿
 
 Movie shows and Tv shows
-﻿Movie shows appeared to be preferred much more over Tv shows.That is,(7,814) for movie shows and (1,854) TV Show.
+﻿Movie shows appeared to be preferred much more over Tv shows. That is (7,814) for movie shows and (1,854) TV Show.
 
 Total Shows Per Release
-Movies seem to be much prefered on the streaming site within 1920 to 2021 with the average of movies viewed withing that period to be 78.14 higher than tv shows which is 31.42.
+Movies seem to be much preferred on the streaming site within 1920 to 2021 with the average of movies viewed withing that period to be 78.14 higher than tv shows which is 31.42.
 ﻿2021 movie shows made up 11.78% of the overall shows viewed on Amazon Prime. 
 In 2021, the count of movies surpassed tv shows by 836, marking the it largest divergence between the two categories.
 
@@ -98,4 +98,4 @@ Content Partnerships: Collaborating with well-known Action franchises or creator
 
 Conclusion
 
-In this Amazon Prime Video Dashboard project, we explored content trends by looking at where shows are most popular, which genres people enjoy, ratings, and release dates. The analysis showed that the United States and India have the most content on the platform, with action being a popular genre worldwide. Movies are generally more popular than TV shows, and certain genres and ratings appeal to different regions and age groups.The insights suggest that Amazon Prime Video could benefit from adding more diverse content and focusing on regional preferences to keep viewers engaged. This project highlights how data can be used to understand what audiences enjoy, helping Amazon Prime Video plan content and grow its reach more effectively.
+In this Amazon Prime Video Dashboard project, we explored content trends by looking at where shows are most popular, which genres people enjoy, ratings, and release dates. The analysis showed that the United States and India have the most content on the platform, with action being a popular genre worldwide. Movies are generally more popular than TV shows, and certain genres and ratings appeal to different regions and age groups. The insights suggest that Amazon Prime Video could benefit from adding more diverse content and focusing on regional preferences to keep viewers engaged. This project highlights how data can be used to understand what audiences enjoy, helping Amazon Prime Video plan content and grow its reach more effectively.
