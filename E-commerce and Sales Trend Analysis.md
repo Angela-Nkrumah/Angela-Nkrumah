@@ -4,7 +4,11 @@
 
 ## Problem Statement
 
-This report is designed to investigate and understand the trends and patterns in an e-commerce retail shop by analyzing it's sales trend over a period of time. The shop gets to know which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales.
+This report is designed to investigate and understand the trends and patterns in an e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales.
+
+### Data source: Data was sourced from 
+
+
 
 ### Steps followed 
 
