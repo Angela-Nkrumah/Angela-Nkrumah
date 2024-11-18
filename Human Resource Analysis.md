@@ -9,10 +9,11 @@ This project was designed to creates a dashboard for the HR managers of a compan
 Understand employees better by tracking how often new hires need to be brought in, why employees leave and the total employees as well as their location.
 
 8. Data Overview
-Data was sourced from: https://www.kaggle.com/. With it key columns:Emplyee Number, Birth Date, Hiring Date, Exist Date, Status, Hiring, Exit, DC, Designation, OC, Office, Ec, Exist Cause, Days Served, Hiring Quality, Age, Scored, Required.
+Data was sourced from: https://www.kaggle.com/. With it key columns: Emplyee Number, Birth Date, Hiring Date, Exist Date, Status, Hiring, Exit, DC, Designation, OC, Office, Ec, Exist Cause, Days Served, Hiring Quality, Age, Scored, Required.
 Snap_shot of dashboard: ![Screenshot 2024-11-16 150334](https://github.com/user-attachments/assets/e1260abe-0042-4bf6-80ac-75ce453ce85b)
+
 7. Data Cleaning
-Data was cleaned, nonetheless, necessary measures were undertaken to ensure its intergrity.
+Data was cleaned, nonetheless, necessary measures were undertaken to ensure its integrity.
 I standardized column headers by ensuring that they were consistently formatted and bolded to help in readability.
 Duplicates, missing data and inconsistent data were rechecked for all columns to confirm that none existed in the dataset.
 ![Screenshot 2024-11-16 130035](https://github.com/user-attachments/assets/40d0add5-9790-4470-bf4b-2a08cfb631e2)
@@ -20,10 +21,9 @@ Duplicates, missing data and inconsistent data were rechecked for all columns to
  9. Dashboard Details
  Horizontal Bar Charts: Three horizontal bar charts were created to visualize the following; employees by position(to show how many people work in the company) and employees by exit cause (why employees left the company). 
 
- Vertical Bar Chart:A vertical chart to show employees by thier age group
+ Vertical Bar Chart:A vertical chart to show employees by their age group.
 
- Pie Charts:Three Pie charts were created to show the hiring quality of the employees of the company ranging from 0 -4,the future human resource needed for the company ranging from available, future, urgent and immediately which is 
- decided based on the date of retirement of each employee.Lastly a pie chart to annalyze the number of employees freshly hired and the number of remaining employees.
+Pie Charts: Three Pie charts were created to show the hiring quality of the employees of the company ranging from 0 -4,the future human resource needed for the company ranging from available, future, urgent and immediately which is decided based on the date of retirement of each employee.  Lastly a pie chart to analyze the number of employees freshly hired and the number of remaining employees.
 
  Cards and Gauges: Two gauges were created to visualize the employee performance and the score for hiring effectiveness. A card was created to show the total employees of the company.
 
@@ -33,22 +33,24 @@ Duplicates, missing data and inconsistent data were rechecked for all columns to
 
  10. Insights
  Across all designations, the total of employees ranged from 43 to 60. With an overall count of employees at 306.
- At a total number of 60, drivers had the highest employees and was 39.53% higher than clerks, which had the lowest number of employees at 43. Drivers account for 19.61% of the total employees. Which suggest that drivers are extremly 
- essential to the company's operations and require frequenttarget management to ensure their effectiveness.
- The hiring score of 0 accounted for the highes number of employees at 46.08%, followed by hiring quality of 1 at 29.41% with hiring quality number of 2 following at 15.03%.
- The company has a total of 27 employees in their 20's followed by the rest of the employees being in their 30's which shows a good range of young minds and experienced workers but will need to employ more young minds to ensure the 
- longetivity of the organization.
- With a total count of 86 employees at Washington, it appears to be the place of residence for most employees followed by Los Angeles, New York and London which had the lowest count of employees at 60. 
- At 86, Washington had the highest number of employees and was 43.33% higher than London, which had the lowest number of employees at 60. Washington could be leveraged for further development of the organization due to its concentration 
- of employees.
- 73.2% of the total number of employees present on the data seem to have retired which leaves 23.1% of the total number of employees still present at the comapny. Looking at the present state of the company, a total of 6 new employees 
- need to be employed and 3 in the near future.
+ At a total number of 60, drivers had the highest employees and was 39.53% higher than clerks, which had the lowest number of employees at 43. Drivers account for 19.61% of the total 
+ employees. Which suggest that drivers are extremely essential to the company's operations and require frequent target management to ensure their effectiveness.
+ The hiring score of 0 accounted for the highest number of employees at 46.08%, followed by hiring quality of 1 at 29.41% with hiring quality number of 2 following at 15.03%.
+ The company has a total of 27 employees in their 20's followed by the rest of the employees being in their 30's which shows a good range of young minds and experienced workers but will 
+ need to employ more young minds to ensure the longevity of the organization.
+ With a total count of 86 employees at Washington, it appears to be the place of residence for most employees followed by Los Angeles, New York and London which had the lowest count of 
+ employees at 60. 
+ At 86, Washington had the highest number of employees and was 43.33% higher than London, which had the lowest number of employees at 60. Washington could be leveraged for further 
+ development of the organization due to its concentration of employees.
+ 73.2% of the total number of employees present on the data seem to have retired which leaves 23.1% of the total number of employees still present at the company. Looking at the present 
+ state of the company, a total of 6 new employees need to be employed and 3 in the near future.
  Within the time period the data was collected, 101 employees were freshly hired, adding up to the 205(66.99%) of existing workers.
- 82 employees seem to have left the company for no reason with 54 employees leaving the company wihtout give any specific reason. 49 employees left the company due to better opportunities elsewhere, with 44 employees being fired and 42 
- retiring. While 35 employees left the company due to natural causes. The number of employees leaving for better opportunities signify the need for better retention services.
- The insights suggest a stable but aging workforce which needs fresh hires and a better retention service to ensure the longetivity and growth of the organization.
+ 82 employees seem to have left the company for no reason with 54 employees leaving the company without given any specific reason. 49 employees left the company due to better 
+ opportunities elsewhere, with 44 employees being fired and 42 retiring.
+ While 35 employees left the company due to natural causes. The number of employees leaving for better opportunities signify the need for better retention services.
+ The insights suggest a stable but aging workforce which needs fresh hires and a better retention service to ensure the longevity and growth of the organization.
 
- 12. Recommendatios
+ 12. Recommendations
  Optimize Employee Retention
  Investigate why so many employees (82) left without a clear reason and address any underlying concerns.
  Create an exit interview process to understand why employees leave, especially those seeking better opportunities (49 employees).
@@ -83,7 +85,8 @@ Duplicates, missing data and inconsistent data were rechecked for all columns to
  Use better data tracking systems to monitor employee performance, retention, and satisfaction, ensuring continuous improvement in HR strategies.
 
  13. Summary
- The company has a stable workforce but faces challenges like high employee turnover and a need for better retention strategies. Drivers are the largest group, clerks the smallest, and Washington is a key location. With many employees 
+ The company has a stable workforce but faces challenges like high employee turnover and a need for better retention strategies. Drivers are the largest group, clerks the smallest, and 
+ Washington is a key location. With many employees 
  retiring, hiring new talent, especially younger workers, is crucial. Improving hiring quality and understanding why employees leave can help strengthen the company for the future.    
 
 
