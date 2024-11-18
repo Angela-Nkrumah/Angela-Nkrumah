@@ -6,23 +6,23 @@
    
 This project was designed to creates a dashboard for the HR managers of a company in an effort to understand employee data, such as how many employees there are, why employees leave, hiring needs, and where employees are located.
    
-4. Goals
+3. Goals
    
 Understand employees better by tracking how often new hires need to be brought in, why employees leave and the total employees as well as their location.
 
-6. Data Overview
+4. Data Overview
    
 Data was sourced from: https://www.kaggle.com/. With it key columns: Emplyee Number, Birth Date, Hiring Date, Exist Date, Status, Hiring, Exit, DC, Designation, OC, Office, Ec, Exist Cause, Days Served, Hiring Quality, Age, Scored, Required.
 Snap_shot of dashboard: ![Screenshot 2024-11-16 150334](https://github.com/user-attachments/assets/e1260abe-0042-4bf6-80ac-75ce453ce85b)
 
-8. Data Cleaning
+5. Data Cleaning
    
 Data was cleaned, nonetheless, necessary measures were undertaken to ensure its integrity.
 I standardized column headers by ensuring that they were consistently formatted and bolded to help in readability.
 Duplicates, missing data and inconsistent data were rechecked for all columns to confirm that none existed in the dataset.
 ![Screenshot 2024-11-16 130035](https://github.com/user-attachments/assets/40d0add5-9790-4470-bf4b-2a08cfb631e2)
 
- 10. Dashboard Details
+ 6. Dashboard Details
      
  Horizontal Bar Charts: Three horizontal bar charts were created to visualize the following; employees by position(to show how many people work in the company) and employees by exit cause (why employees left the company). 
 
@@ -56,7 +56,8 @@ Pie Charts: Three Pie charts were created to show the hiring quality of the empl
  While 35 employees left the company due to natural causes. The number of employees leaving for better opportunities signify the need for better retention services.
  The insights suggest a stable but aging workforce which needs fresh hires and a better retention service to ensure the longevity and growth of the organization.
 
- 9. Recommendations
+ 8. Recommendations
+     
  Optimize Employee Retention
  Investigate why so many employees (82) left without a clear reason and address any underlying concerns.
  Create an exit interview process to understand why employees leave, especially those seeking better opportunities (49 employees).
