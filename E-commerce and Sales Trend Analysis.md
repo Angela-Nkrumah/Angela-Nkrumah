@@ -52,10 +52,11 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
   `New_Product_No` int DEFAULT NULL,
   `New_Id` int NOT NULL,
   PRIMARY KEY (`New_Id`)
-   SET Quantity = NULL; ````
+   SET Quantity = NULL; 
 
  -Data Cleaning and transformation
-SELECT 
+
+    SELECT 
     Product_No,
     LENGTH(Product_No) AS string_length,
     CASE 
@@ -64,10 +65,12 @@ SELECT
     END AS Alphabets_position,
     REGEXP_REPLACE(Product_No, '[^0-9]', '') AS New_Product_No,
     LENGTH(REGEXP_REPLACE(Product_No, '[^0-9]', '')) AS Numerical_length
-FROM 
-    Retail_and_ecommerce_transactions;
+    FROM 
+    Retail_and_ecommerce_transactions; 
+    
 
-  -Syntax for creating a new table from the main table by using certain requirements
+-Syntax for creating a new table from the main table by using certain requirements
+
     Insert into canceled_transactions (
               Transaction_No,
               `Date`,
@@ -78,7 +81,8 @@ FROM
               New_Product_No,
               New_Id
 	) 
-SELECT     Transaction_No,
+    SELECT    
+      Transaction_No,
               `Date`,
               Product_Name,
               Price,
@@ -86,13 +90,14 @@ SELECT     Transaction_No,
               Country,
               New_Product_No,
               New_Id
-FROM sales_transactions
-where  Transaction_No LIKE 'C%' 
+    FROM sales_transactions
+    where  Transaction_No LIKE 'C%' 
     AND (Quantity < 0 OR (Price <0 AND Quantity IS NULL));
 
 -Syntax for updating new columns in the new table from the main table
+
       UPDATE cancelled_products st
-JOIN sales_transactions mt ON 
+    JOIN sales_transactions mt ON 
     st.Transaction_No LIKE 'C%' 
     AND st.`Date` = mt.`Date` 
     AND st.New_Product_No = mt.New_Product_No 
@@ -101,16 +106,18 @@ JOIN sales_transactions mt ON
     AND st.Quantity = mt.Quantity 
     AND st.Customer_No = mt.Customer_No 
     AND st.Country = mt.Country
-SET st.sales_transactions_New_ID = mt.New_ID
-WHERE 
+    SET st.sales_transactions_New_ID = mt.New_ID
+    WHERE 
     (st.Quantity < 0 OR st.Quantity > 0);
  
     
 - Step 2 Load data into Power Query and use dax functions to create new tables and measures for further analysis.
   
 - Dax Query to rank products
+
+  ```Dax
    ProductRank = 
-RANKX(
+   RANKX(
     FILTER(
         'Countries and their most purchased products',
         'Countries and their most purchased products'[Country] = EARLIER('Countries and thier most purchased products'[Country])
@@ -119,43 +126,57 @@ RANKX(
     ,
     DESC,
     Dense
-)  
+   )
+  
 - Dax for analyzing time series trend
-   TimeSeriesAnalysis = 
-SUMMARIZE(
-    'Trends analysis',
-    'Trends analysis'[Year],
-    'Trends analysis'[Quarter],
-    'Trends analysis'[Month],
-    "TotalSales", SUM('Trends analysis'[Total_Sales_Amount]),
-    "TotalQuantitiesSold", SUM('Trends analysis'[Total_Quantity_Sold]),
-    "AveragePrice", AVERAGE('Trends analysis'[Average_Price])
-)
+  
+      TimeSeriesAnalysis = 
+      SUMMARIZE(
+      'Trends analysis',
+      'Trends analysis'[Year],
+      'Trends analysis'[Quarter],
+      'Trends analysis'[Month],
+      "TotalSales", SUM('Trends analysis'[Total_Sales_Amount]),
+      "TotalQuantitiesSold", SUM('Trends analysis'[Total_Quantity_Sold]),
+      "AveragePrice", AVERAGE('Trends analysis'[Average_Price])
+      )
+  
 - Dax to analyze various country's purchasing behaviour
-   TopProductsByCountry = 
-SUMMARIZE(
-    FILTER(
+  
+      TopProductsByCountry = 
+      SUMMARIZE(
+      FILTER(
         'Countries and their most purchased products',
         'Countries and their most purchased products'[ProductRank] = 1 && 'Countries and thier most purchased products'[Country] <> "unspecified" && NOT ISBLANK('Countries and thier most purchased products'[Country])
-    ),
-    'Countries and thier most purchased products'[Country],
-    "TotalQuantity", MAX('Countries and thier most purchased products'[TotalQuantity]),
-    "TopProduct", MAX('Countries and thier most purchased products'[Product_Name])
-)
+      ),
+  
+      'Countries and thier most purchased products'[Country],
+      "TotalQuantity", MAX('Countries and thier most purchased products'[TotalQuantity]),
+      "TopProduct", MAX('Countries and thier most purchased products'[Product_Name])
+      )
+
+
+ ### Visualization
  
-- Step 8 :Three(3) cards and four (4) filters were added to the dashboard to identify the Total Sales, Total Purchased and Average Price as well as the various 4 quaters respectively.
+- Three(3) cards and four (4) filters were added to the dashboard to identify the Total Sales, Total Purchased and Average Price as well as the various 4 quaters respectively.
   
    ![Screenshot 2024-11-13 124111](https://github.com/user-attachments/assets/c2470c75-48a8-4f14-a768-195bcafa6320)
    ![Screenshot 2024-11-13 124139](https://github.com/user-attachments/assets/5398f079-1407-4752-a45f-d786c206d794)
    ![Screenshot 2024-11-13 124155](https://github.com/user-attachments/assets/816fbe7d-0375-4e6d-b695-a2c4c5195b3e)
    
-           Although, by default, while calculating, blank values are ignored.
-- Step 10 : 3 bar charts were included to analyze the seasonal trends, yearly and monthly trends as well as the quartely trend. 2 tables were also included to visualize the top 10 products with the highest revenue and the top 10 customer Id. A map was included in the dashbaord to visualize the varios countries. Filters of each country's total number, total sales and total quantity purchased were aslo included.
+  
+- 3 bar charts were included to analyze the seasonal trends, yearly and monthly trends as well as the quartely trend.
+- 2 tables were also included to visualize the top 10 products with the highest revenue and the top 10 customer Id.
+- A map was included in the dashbaord to visualize the varios countries. Filters of each country's total number, total sales and total quantity purchased were aslo included.
 - A new table with calculated measures was created to group the various countries and their customer transactions, for visualization.
-  Snap Shot of new customer transactions per country table. ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
+  
+  Snap Shot of new customer transactions per country table.
+
+  ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
   
  
  # Dashboard Snapshot:
+ 
 ![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
 
 # Insights
