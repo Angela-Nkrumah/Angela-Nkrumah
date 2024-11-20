@@ -1,13 +1,34 @@
 # Retail Sales Exploratory Analysis (EDA)
 
-## Problem Statement
+
+## Project Overview
 
 This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales. A 3 page report and a dashboard to summarize and give a quick view of the entire report was created.
 Link to report: https://drive.google.com/file/d/1wspQ-Oplk1X5ubJi1p2zhiFAb9SCaP8a/view?usp=sharing
 
-### Data Overview
-Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business. The dataset contained eight (8) columns; Transaction_No, Date, Product_No, Product, Price, Quantity, Customer_No and Country.
-Data was cleaned using sql queries whereas DAX was used in generating further analysis.
+
+### Source
+Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-shop-business. 
+
+
+### Tools
+ - My SQL (for cleaning and analysing the data)
+ - Power BI (Using Dax queries for further analysis and visualization)
+ - Data was cleaned using sql queries whereas DAX was used in generating further analysis.
+
+### Columns in Dataset
+   The dataset contained eight (8) columns; 
+   
+ 1. Transaction_No
+ 2.  DateProduct_No
+ 3.  Product
+ 4.  Price
+ 5. Quantity
+ 6. Customer_No
+ 7.  Country   
+    
+
+### Data Preparation
 
 ### Steps followed 
 - Step 1 : Load data into MySQL to clean and analyze data by using Data Definition Language (DDL) and Data Manipulation Languages (DML) to clean and standardize dataset for further analysis.
