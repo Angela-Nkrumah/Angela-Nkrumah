@@ -2,19 +2,20 @@
 
 
 ## Table of Contents
+
 - [Project Overview](#project-overview)
-- [Source](source)
-- [Tools](tools)
-- [Columns in Dataset](columns-in-dataset)
-- [Data Preparation](data-preparation)
-- [Steps followed](steps-followed)
-- [Descriptive Data Analysis](descriptive-data-analysis)
-- [Dashboard Overview](dashboard-overview)
-- [Cards for Summary Statistics](cards-for-summary-statistics)
-- [Visualizations](visualizations)
-- [Insights](insights)
-- [Recommendations](recommendations)
-- [Conclusion](conclusion)
+- [Source](#source)
+- [Tools](#tools)
+- [Columns in Dataset](#columns-in-dataset)
+- [Data Preparation](#data-preparation)
+- [Steps followed](#steps-followed)
+- [Descriptive Data Analysis](#descriptive-data-analysis)
+- [Dashboard Overview](#dashboard-overview)
+- [Cards for Summary Statistics](#cards-for-summary-statistics)
+- [Visualizations](#visualizations)
+- [Insights](#insights)
+- [Recommendations](#recommendations)
+- [Conclusion](#conclusion)
 
 
 
