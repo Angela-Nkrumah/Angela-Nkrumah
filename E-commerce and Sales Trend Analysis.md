@@ -193,6 +193,7 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
 - A new table with calculated measures was created to group the various countries with their customer transactions, for visualization.
   
   Snap Shot of new customer transactions per country table.
+  
   ![Screenshot 2024-11-14 124819](https://github.com/user-attachments/assets/93ac6cbe-2730-46d9-a966-b8e2ea97da11)
   
  
