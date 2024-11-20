@@ -29,11 +29,17 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
     
 
 ### Data Preparation
+ Data was cleaned using My SQL.
 
 ### Steps followed 
+
 - Step 1 : Load data into MySQL to clean and analyze data by using Data Definition Language (DDL) and Data Manipulation Languages (DML) to clean and standardize dataset for further analysis.
+  
 - Key SQL Queries
+
 - SQL Queries to import data
+  
+  ```sql
   CREATE TABLE `sales_transactions` (
   `Transaction_No` varchar(255) DEFAULT NULL,
   `Date` date DEFAULT NULL,
@@ -46,8 +52,7 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
   `New_Product_No` int DEFAULT NULL,
   `New_Id` int NOT NULL,
   PRIMARY KEY (`New_Id`)
-UPDATE retail_and_ecommerce_transactions
-   SET Quantity = NULL;
+   SET Quantity = NULL; ````
 
  -Data Cleaning and transformation
 SELECT 
