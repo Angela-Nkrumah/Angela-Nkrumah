@@ -64,21 +64,9 @@ Dataset needed minimal cleaning to maintain high level of integriy.
  
 ## Dashboard Overview
 
-Dashbaord Snap_Shot:
+Dashbaord Snap_Shot:![Screenshot 2024-11-14 134038](https://github.com/user-attachments/assets/1d505b79-b6ad-4fa7-8910-0cc86a759f96)
 
 
-
-
-##Cards for Summary Statistics
-
- ![Screenshot 2024-11-18 195815](https://github.com/user-attachments/assets/790435f9-5933-4a74-9a68-dfa02ed5ad6d)
- ![Screenshot 2024-11-18 200104](https://github.com/user-attachments/assets/f7b38f8d-42a6-431a-af5e-a5d78d16287b)
- ![Screenshot 2024-11-18 200132](https://github.com/user-attachments/assets/50b68233-9cf9-4e99-88f4-028c1305d211)
- ![Screenshot 2024-11-18 200147](https://github.com/user-attachments/assets/21c7a6b2-a776-4496-9f25-c1bbd5a24dc3)
- ![Screenshot 2024-11-18 200205](https://github.com/user-attachments/assets/e122fcf5-ea84-4cbc-be6a-51642945aeeb)
- ![Screenshot 2024-11-18 200218](https://github.com/user-attachments/assets/1dc868fa-3fa6-4dac-b02b-7e241d688579)
-
- 
 ## Visualizations:
 
 Ratings Distribution:  A bar chart to show ratings across all titles, helping to understand the general quality perception.
