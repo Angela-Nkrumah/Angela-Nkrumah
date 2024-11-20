@@ -64,9 +64,7 @@ Dataset needed minimal cleaning to maintain high level of integriy.
  
 ## Dashboard Overview
 
-Dashbaord Snap_Shot:
-
-
+Dashbaord Snap_Shot: ![Screenshot 2024-11-20 150725](https://github.com/user-attachments/assets/40b218b3-2be1-4219-9e99-5913b533b612)
 
 
 ## Visualizations:
