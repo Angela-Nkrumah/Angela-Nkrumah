@@ -1,6 +1,31 @@
 # Retail Sales Exploratory Analysis (EDA)
 
 
+### Table Content
+
+   [Project Overview](#project-overview)
+   
+   [Source](#source)
+   
+   [Tools](#tools)
+   
+   [Columns in Dataset](#columns-in-dataset)
+   
+   [Data Preparation](#data-preparation)
+   
+   [Steps followed](#steps-followed)
+   
+   [Visualization](#visualization)
+   
+   [Dashboard Snapshot](#dashboard-snapshot) 
+   
+   [Insights](#insights)
+   
+   [Recomemndation](#recomemndation)
+   
+   [Conclusion](#conclusion)
+   
+   
 ## Project Overview
 
 This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales. A 3 page report and a dashboard to summarize and give a quick view of the entire report was created.
@@ -115,7 +140,7 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
   
 - Dax Query to rank products
 
-  ```Dax
+  ```DAX
    ProductRank = 
    RANKX(
     FILTER(
@@ -175,102 +200,135 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
   ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
   
  
- # Dashboard Snapshot:
+ # Dashboard Snapshot
  
 ![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
 
 # Insights
 
 ### Total Sales
-Total sales of 62.97M was generated withing the time period of November 2018 to December 2019.
-Highest sales were recorded in the early stage of the data, which could indicate a strong launch of the business or a seasonal demand of products.
-Total sales and total quantity sold are positively correlated with each other.
+A Total sales of 62.97M was generated withing the time period of November 2018 to December 2019. with the highest sales been recorded in the early stage of the data, which could indicate a strong launch of the business or a seasonal demand of products.There is also a positve correlatoin between the total sales and total quantity sold 
              
 ### Day Sales
-Sales particularly hiked on Mondays, Thursdays and Sundays as well regions such as United Kingdom, Germany and EIRE.
-At 1,729,479.34,  Monday (1) had the highest Maximum Sales Day Of Week and was 337.50% higher than Wednesday (3), which had the lowest Maximum Sales Day Of Week at 395,305.25.
-Amongst all 6 days of the week, the maximum sales ranged from 395,305.25 to 1,729,479.34.
+Sales particularly hiked on Mondays, Thursdays and Sundays as well regions such as United Kingdom, Germany and EIRE. With a total sales of 1,729,479.34, Monday recorded the highest sales of the weeks and was 337.50% higher than Wednesday), which recorded the lowest sales of the weeks at 395,305.25. Amongst all 6 days of the week, highest sales ranged from 395,305.25 to 1,729,479.34.
 
 ### Seasonal Sales
-August in Year 2019 made up 36.39% of Sum of the total sales with it being the highest sales for the seasons.
-Followed by April and December respectively.
+In August 2019, a total sales of 36.39% of the overall sales was recorded making it the highest sales for the seasons, which was then followed by April and December respectively.
 
  ### Regional Sales
- United Kingdom, Germany and EIRE recorded high sales.
-The was also a spike in seasonal sales during, August,  December and April.
-August in Year 2019 made up 36.39% of Sum of Total Sales.
+ United Kingdom, Germany and EIRE recorded the most sales.
  
  ### Customer Trend over Time
- At 583, August had the highest Total Customers and was 577.91% higher than November, which had the lowest Total Customers at 86.
+ At 583, August had the highest Total Customers and was 577.91% higher than November, which had the lowest customer count the business saw at 86.
  
- ### New Customers versus Returning customers.
- ﻿At 583, August had the highest total customers and was 577.91% higher than November, which had the lowest Total Customers at 86.﻿
          
 ### Purchasing Product analysis
-﻿In December, the transaction total of 2019 made up 15.73% of the total transaction.
-The total for 2018 and 2019 diverged the most in December when 2018 weas 16405 higher than 2019.
+﻿In December, the transaction total of 2019 made up 15.73% of it's total. The total for 2018 and 2019 diverged the most in December when 2018 weas 16405 higher than 2019.
 
 
 ### Most Purchased Product
-The number of transactions and total quantity sold  are negatively correlated with each other.
-Cream Hanging Heart T-Light Holder accounted for 0.44% of Sum of transactions.
-Quantity sold and the number of transactions diverged the most when the with Paper Craft Little Birdie, when with the total quantity being 80994 higher than the number of transactions.
+The number of transactions and total quantity sold are negatively correlated with each other. Which could signify bulk buying behavior or seasonal and promotional purchases. Quantity sold and the number of transactions diverged the most  with Paper Craft Little Birdie, with the total quantity being 80994 higher than the number of transactions.
+
 
  ### Top 10 Products sold
  At 1,002,718.10, Paper Craft Little Birdie had the highest quantity sold and was 3,348.18% higher than Victorian Glass Hanging T-Light, which had the lowest quantity sold at 29,079.63.
- Paper Craft Little Birdie accounted for 72.25% of the sales.
  Across all 10 products sold, the total sales ranged from 29,079.63 to 1,002,718.10.
 
  ### Most Purchased product per Country
- ﻿United Kingdom with its respective most product sold, Paper Craft Little Birdie made up 74.46% of Max of the total quantity.
- Rabbit Night Light had the highest average Max of total quantity at 4077, followed by Mini Paint Set Vintage, Ice Cream Sundae Lip Gloss, and Red Harmonica In Box.
+ ﻿United Kingdom with its respective most product sold, (Paper Craft Little Birdie) made up 74.46% of the total quantity. 
 
  ### Top 10 Customers with Most Purchased
  Customer Id 16446 purchased the most product withing Novemeber 2018 to December 2019 with a total purchased of 80995. Followd by Customer ID number 14641, also with a total purchase 
  number of 34760. The least purchased amongst the top 10 was Customer Id number 17450 with a total purchase count of 5354.
 
   ### Recomemndation
-  1. Optimize Marketing Plans Using Sales Trends
-  2. Peak Sales Times: Since the early stages saw the largest sales, think about examining the marketing or promotional initiatives that were carried out during this time. To increase 
-  sales, repeat these tactics at other times.
-   Seasonal Demand: Plan and allot marketing resources for the months of August, December, and April, when sales tend to peak. Think of introducing new product lines, discounts, or     
-  exclusive marketing for certain months.
 
-3. Make Inventory Management Better
-  Stock Levels: Make sure you keep enough product on hand for when demand is at its highest (Mondays, Thursdays, and Sundays). To avoid stockouts, increase the quantity of popular items 
-  like "Paper Craft Little Birdie".
-  Regional Inventory: Make sure that areas such as the UK, Germany, and EIRE continue to have higher levels of inventory. Customer pleasure and prompt fulfillment are ensured by this.
+  
+ 1. Optimize Marketing Plans Using Sales Trends
+    
+  - Peak Sales Times:
+    
+  - Since the early stages saw the largest sales, think about examining the marketing or promotional initiatives that were carried out during this time. To increase 
+    sales, repeat these tactics at other times.
+    
+  - Seasonal Demand:
+    
+  - Plan and allot marketing resources for the months of August, December, and April, when sales tend to peak. Think of introducing new product lines, discounts, or     
+    exclusive marketing for certain months.
 
-4. Focused Interaction with Customers
-  Highest Number of Customers: August has the most customers overall. Use this month to run focused promotions that will increase sales and engagement. To draw in new business and keep 
-  existing ones, implement loyalty programs and promotions.
-  Customer Retention: Use techniques to turn prospects into loyal patrons, especially in high-demand months. Exclusive incentives and tailored communications can aid in keeping these 
-  clients.
+ 2. Make Inventory Management Better
+    
+  - Stock Levels:
+  
+  - Make sure you keep enough product on hand for when demand is at its highest (Mondays, Thursdays, and Sundays). To avoid stockouts and also increase the quantity of popular items 
+   like Paper Craft Little Birdie.
 
-5 Emphasizing Products and Adding Variety
-  Best-Selling Items: Focus on marketing best-selling items such as "Paper Craft Little Birdie." To boost sales, emphasize these in marketing efforts and think about combining them with 
-  other items.
-  Diversification: Examine the reasons behind the reduced sales of products such as the "Victorian Glass Hanging T-Light" and determine if they require improved marketing or even a 
-  redesign.
+ 3.Regional Inventory: 
+ 
+ - Make sure that areas such as the UK, Germany, and EIRE continue to have higher levels of inventory. Customer pleasure and prompt fulfillment are ensured by this.
 
-6. Enhance the Client Experience
-   consumer input and improvement: Gather consumer feedback on a regular basis, particularly on well-liked products and at times of high sales. Utilize these suggestions to enhance the 
-   caliber of the products, the packaging, and the delivery options.
-   Customer service: To effectively manage more questions and problems, make sure there is strong customer service during times of high sales.
+ 4. Focused Interaction with Customers
+    
+  - Highest Number of Customers:
+  
+  - August has the most customers overall. Use this month to run focused promotions that will increase sales and engagement to draw in new business and keep existing ones, implement 
+    loyalty programs and promotions.
+    
+  - Customer Retention:
+
+    Use techniques to turn prospects into loyal patrons, especially in high-demand months. Exclusive incentives and tailored communications can aid in keeping these 
+    clients.
+
+5. Enhance the Client Experience
+   
+   - Consumer input and improvement:
+
+   - Gather consumer feedback on a regular basis, particularly on well-liked products and at times of high sales. Utilize these suggestions to enhance the caliber of the products, the 
+     packaging, and the delivery options.
+     
+   - Customer service:
+     
+   - To effectively manage more questions and problems, make sure there is strong customer service during times of high sales.
+
+
+6. Emphasizing Products and Adding Variety
+
+  - Best-Selling Items:
+    
+ - Focus on marketing best-selling items such as "Paper Craft Little Birdie." To boost sales, emphasize these in marketing efforts and think about combining them with 
+   other items.
+ - Diversification:
+   
+ - Examine the reasons behind the reduced sales of products such as the "Victorian Glass Hanging T-Light" and determine if they require improved marketing or even a 
+   redesign.
 
 7. Make Strategic Decisions with Data
-   Data-Based Approaches: To improve pricing strategies, apply the knowledge gained from the association between the total quantity sold and the number of transactions. Offer discounts 
-   for greater purchases, for example, to encourage larger transactions.
-   Trend Analysis: Keep an eye out for new patterns by continuously observing consumer behavior and sales trends. Make proactive strategy adjustments and remain ahead of market trends 
-   with the help of this data.
+   
+  - Data-Based Approaches:
+    
+  - To improve pricing strategies, apply the knowledge gained from the association between the total quantity sold and the number of transactions. Offer discounts for greater purchases, 
+    for example, to encourage larger transactions.
+    
+  - Trend Analysis:
+  
+  - Keep an eye out for new patterns by continuously observing consumer behavior and sales trends. Make proactive strategy adjustments and remain ahead of market trends 
+    with the help of this data.
 
-8. Region Expansion
-   High-Performing Regions: Since the United Kingdom, Germany, and EIRE are performing well, consider expanding marketing and distribution channels in these regions.
+ 8. Region Expansion
+    
+   - High-Performing Regions:
+   
+   - Since the United Kingdom, Germany, and EIRE are performing well, consider expanding marketing and distribution channels in these regions.
 
 9. Sales Optimization on Specific Days
-   Day-Specific Promotions: Implement special promotions on days with high sales like Mondays, Thursdays, and Sundays. This could further boost sales on these days and even out sales 
+    
+   - Day-Specific Promotions: Implement special promotions on days with high sales like Mondays, Thursdays, and Sundays. This could further boost sales on these days and even out sales 
    throughout the week.
 
+
  ### Conclusion
-The E-commerce retail shop, can increase sales in general by increasing product quantity in the United Kingdom, Germany and Eire due to their high sales records and also attention needs to be given to the products most purchased in the regions with low sales records. These products purchased most in these regions when strategized, can interest customers, which will increase customer interaction and in return increase sales. Customer satisfaction should also be prioritized to encourage more new customers and also ensure new customers remain as permanent customers of the business.
+   The E-commerce retail shop, can increase sales in general by increasing product quantity in the United Kingdom, Germany and Eire due to their high sales records and also attention 
+   needs to be given to the products most purchased in the regions with low sales records. These products purchased most in these regions when strategized, can interest customers, which 
+   will increase customer interaction and in return increase sales. Customer satisfaction should also be prioritized to encourage more new customers and also ensure new customers remain 
+   as permanent customers of the business.
  
