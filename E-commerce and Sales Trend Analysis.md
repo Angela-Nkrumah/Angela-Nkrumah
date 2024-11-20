@@ -193,11 +193,10 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
 - 3 bar charts were included to analyze the seasonal trends, yearly and monthly trends as well as the quartely trend.
 - 2 tables were also included to visualize the top 10 products with the highest revenue and the top 10 customer Id.
 - A map was included in the dashbaord to visualize the varios countries. Filters of each country's total number, total sales and total quantity purchased were aslo included.
-- A new table with calculated measures was created to group the various countries and their customer transactions, for visualization.
+- A new table with calculated measures was created to group the various countries with their customer transactions, for visualization.
   
   Snap Shot of new customer transactions per country table.
-
-  ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
+ ![Screenshot 2024-11-13 122938](https://github.com/user-attachments/assets/c5e963e7-14d4-4798-b08f-1d6c471e3c7a)
   
  
  # Dashboard Snapshot
