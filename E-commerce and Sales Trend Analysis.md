@@ -199,7 +199,7 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
  
  # Dashboard Snapshot
  
- ![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
+  ![Screenshot 2024-11-21 131047](https://github.com/user-attachments/assets/cc358be8-8a3d-44ba-9ee3-28708291b1f8)
 
 # Insights
 
