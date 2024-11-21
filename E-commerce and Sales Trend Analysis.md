@@ -28,7 +28,7 @@
    
 ## Project Overview
 
-This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales. A 3 page report and a dashboard to summarize and give a quick view of the entire report was created.
+This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales. A 3 page report to analyze sales trend, customer analysis purchasing product analysis and a dashboard to summarize and give a quick view of the entire report was created.
 Link to report: https://drive.google.com/file/d/1wspQ-Oplk1X5ubJi1p2zhiFAb9SCaP8a/view?usp=sharing
 
 
@@ -199,7 +199,7 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
  
  # Dashboard Snapshot
  
-![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
+ ![Screenshot 2024-11-13 171931](https://github.com/user-attachments/assets/35c91037-9a4a-4933-a1eb-b3f18fe0baad)
 
 # Insights
 
@@ -220,8 +220,8 @@ In August 2019, a total sales of 36.39% of the overall sales was recorded making
  
          
 ### Purchasing Product analysis
-﻿In December, the transaction total of 2019 made up 15.73% of it's total. The total for 2018 and 2019 diverged the most in December when 2018 weas 16405 higher than 2019.
-
+The count of new customers and that of total customers are positively correlated which is understandable since new customers directly contribute the increase in total customers. This 
+ maybe as a result of campaign or promotional services or tthe presence of some products. December 2019 recorded the highest count of new customers at 32.50%.
 
 ### Most Purchased Product
 The number of transactions and total quantity sold are negatively correlated with each other. Which could signify bulk buying behavior or seasonal and promotional purchases. Quantity sold and the number of transactions diverged the most  with Paper Craft Little Birdie, with the total quantity being 80994 higher than the number of transactions.
