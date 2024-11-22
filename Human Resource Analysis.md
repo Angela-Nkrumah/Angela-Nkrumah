@@ -1,7 +1,19 @@
- ###  Human Resource Analysis
+ # Human Resource Analysis
    
-  #   Table Content
-   
+ ### Table Content
+
+ [Project Overview](#project_overview)
+ [Source](#source)
+ [Tools](#tools)
+ [Columns in Dataset](#columns_in_dataset)
+ [Data Preparation](#data_preparation)
+ [Steps Followed](#steps_followed)
+ [Descriptive Analysis](#descriptive_analysis)
+ [Dashboard Overview](#dashboard_overview)
+ [Visualization](#visualization)
+ [Insights](#insights)
+ [Recommendation](#recommendation)
+ [Conclusion](#conclusion)
 
 2. Introduction
    
