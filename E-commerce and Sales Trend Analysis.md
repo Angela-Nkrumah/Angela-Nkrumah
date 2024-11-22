@@ -4,6 +4,8 @@
 ### Table Content
 
    [Project Overview](#project-overview)
+
+   [Link to Report](#link-to-report)
    
    [Source](#source)
    
@@ -28,8 +30,14 @@
    
 ## Project Overview
 
-This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop by analyzing it's sales trend over a period of time as well as it's customers behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to increase yearly and seasonal sales. A 3 page report to analyze sales trend, customer analysis purchasing product analysis and a dashboard to summarize and give a quick view of the entire report was created.
-Link to report: https://drive.google.com/file/d/1wspQ-Oplk1X5ubJi1p2zhiFAb9SCaP8a/view?usp=sharing
+ This report is designed to investigate and understand the trends and patterns in a Uk based e-commerce retail shop sales which has branches in parts of Europe, South Africa, East Asia and North America by analyzing it's sales trend 
+ over a period of time as well as it's customer's behaviours. The retail business develops an in-depth knowledge about which location needs more attention to boost sales as well as which products need more attention in other to 
+ increase yearly and seasonal sales. A 3 page report to analyze sales trend, customer analysis and purchasing product analysis as well as a dashboard to summarize and give a quick view of the entire report was created.
+
+ 
+ ### Link to Report
+ 
+ https://drive.google.com/file/d/1wspQ-Oplk1X5ubJi1p2zhiFAb9SCaP8a/view?usp=sharing
 
 
 ### Source
@@ -201,44 +209,56 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
  
   ![Screenshot 2024-11-21 131047](https://github.com/user-attachments/assets/cc358be8-8a3d-44ba-9ee3-28708291b1f8)
 
-# Insights
 
-### Total Sales
+### Insights
+
+## Total Sales
+
 A Total sales of 62.97M was generated withing the time period of November 2018 to December 2019. with the highest sales been recorded in the early stage of the data, which could indicate a strong launch of the business or a seasonal demand of products.There is also a positve correlatoin between the total sales and total quantity sold 
              
-### Day Sales
+#### Day Sales
+
 Sales particularly hiked on Mondays, Thursdays and Sundays as well regions such as United Kingdom, Germany and EIRE. With a total sales of 1,729,479.34, Monday recorded the highest sales of the weeks and was 337.50% higher than Wednesday), which recorded the lowest sales of the weeks at 395,305.25. Amongst all 6 days of the week, highest sales ranged from 395,305.25 to 1,729,479.34.
 
-### Seasonal Sales
+#### Seasonal Sales
+
 In August 2019, a total sales of 36.39% of the overall sales was recorded making it the highest sales for the seasons, which was then followed by April and December respectively.
 
  ### Regional Sales
+ 
  United Kingdom, Germany and EIRE recorded the most sales.
  
  ### Customer Trend over Time
+ 
  At 583, August had the highest Total Customers and was 577.91% higher than November, which had the lowest customer count the business saw at 86.
  
          
 ### Purchasing Product analysis
+
 The count of new customers and that of total customers are positively correlated which is understandable since new customers directly contribute the increase in total customers. This 
  maybe as a result of campaign or promotional services or tthe presence of some products. December 2019 recorded the highest count of new customers at 32.50%.
 
 ### Most Purchased Product
+
 The number of transactions and total quantity sold are negatively correlated with each other. Which could signify bulk buying behavior or seasonal and promotional purchases. Quantity sold and the number of transactions diverged the most  with Paper Craft Little Birdie, with the total quantity being 80994 higher than the number of transactions.
 
 
  ### Top 10 Products sold
+ 
  At 1,002,718.10, Paper Craft Little Birdie had the highest quantity sold and was 3,348.18% higher than Victorian Glass Hanging T-Light, which had the lowest quantity sold at 29,079.63.
  Across all 10 products sold, the total sales ranged from 29,079.63 to 1,002,718.10.
 
  ### Most Purchased product per Country
+ 
  ﻿United Kingdom with its respective most product sold, (Paper Craft Little Birdie) made up 74.46% of the total quantity. 
 
  ### Top 10 Customers with Most Purchased
+ 
  Customer Id 16446 purchased the most product withing Novemeber 2018 to December 2019 with a total purchased of 80995. Followd by Customer ID number 14641, also with a total purchase 
  number of 34760. The least purchased amongst the top 10 was Customer Id number 17450 with a total purchase count of 5354.
 
-  ### Recomemndation
+
+ ### Recomemndation
 
   
  1. Optimize Marketing Plans Using Sales Trends
