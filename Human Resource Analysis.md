@@ -31,10 +31,7 @@
    
 This project was designed to annalyze the dataset of a company's employees through descriptive analysis. A dashboard with the aim of helping the HR managers of the company was created to 
  aid the organization understand it's employee data, such as how many employees are in the company, why employees leave, hiring needs, and where employees are located.
-   
-3. Goals
-   
-Understand employees better by tracking how often new hires need to be brought in, why employees leave and the total employees as well as their location.
+
 
 ### Source
    
@@ -49,8 +46,10 @@ Power Bi (For visualization)
 
 ### Columns in Dataset
 
+Columns in dataset include
+
 Emplyee Number, Birth Date, Hiring Date, Exist Date, Status, Hiring, Exit, DC, Designation, OC, Office, Ec, Exist Cause, Days Served, Hiring Quality, Age, Scored, Required.
-Snap_shot of dashboard: ![Screenshot 2024-11-16 150334](https://github.com/user-attachments/assets/e1260abe-0042-4bf6-80ac-75ce453ce85b)
+
 
 ###Data Preparation
 
@@ -60,9 +59,12 @@ Data was cleaned, nonetheless, necessary measures were undertaken to ensure its 
 ### Steps Followed
 
 I standardized column headers by ensuring that they were consistently formatted and bolded to help in readability.
+
 Duplicates, missing data and inconsistent data were rechecked for all columns to confirm that none existed in the dataset.
 
 Snapshot of prepared data:
+
+
 
 
 
