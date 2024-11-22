@@ -3,53 +3,113 @@
  ### Table Content
 
  [Project Overview](#project_overview)
+ 
  [Source](#source)
+ 
  [Tools](#tools)
+ 
  [Columns in Dataset](#columns_in_dataset)
+ 
  [Data Preparation](#data_preparation)
+ 
  [Steps Followed](#steps_followed)
+ 
  [Descriptive Analysis](#descriptive_analysis)
+ 
  [Dashboard Overview](#dashboard_overview)
+ 
  [Visualization](#visualization)
+ 
  [Insights](#insights)
+ 
  [Recommendation](#recommendation)
+ 
  [Conclusion](#conclusion)
 
-2. Introduction
+
+### Project Overview
    
-This project was designed to creates a dashboard for the HR managers of a company in an effort to understand employee data, such as how many employees there are, why employees leave, hiring needs, and where employees are located.
+This project was designed to annalyze the dataset of a company's employees through descriptive analysis. A dashboard with the aim of helping the HR managers of the company was created to 
+ aid the organization understand it's employee data, such as how many employees are in the company, why employees leave, hiring needs, and where employees are located.
    
 3. Goals
    
 Understand employees better by tracking how often new hires need to be brought in, why employees leave and the total employees as well as their location.
 
-4. Data Overview
+### Source
    
-Data was sourced from: https://www.kaggle.com/. With it key columns: Emplyee Number, Birth Date, Hiring Date, Exist Date, Status, Hiring, Exit, DC, Designation, OC, Office, Ec, Exist Cause, Days Served, Hiring Quality, Age, Scored, Required.
+Data was sourced from:
+https://www.kaggle.com/.
+
+### Tools
+
+Excel (to understand and clean dataset)
+
+Power Bi (For visualization)
+
+### Columns in Dataset
+
+Emplyee Number, Birth Date, Hiring Date, Exist Date, Status, Hiring, Exit, DC, Designation, OC, Office, Ec, Exist Cause, Days Served, Hiring Quality, Age, Scored, Required.
 Snap_shot of dashboard: ![Screenshot 2024-11-16 150334](https://github.com/user-attachments/assets/e1260abe-0042-4bf6-80ac-75ce453ce85b)
 
-5. Data Cleaning
-   
+###Data Preparation
+
 Data was cleaned, nonetheless, necessary measures were undertaken to ensure its integrity.
+
+
+### Steps Followed
+
 I standardized column headers by ensuring that they were consistently formatted and bolded to help in readability.
 Duplicates, missing data and inconsistent data were rechecked for all columns to confirm that none existed in the dataset.
-![Screenshot 2024-11-16 130035](https://github.com/user-attachments/assets/40d0add5-9790-4470-bf4b-2a08cfb631e2)
 
- 6. Dashboard Details
+Snapshot of prepared data:
+
+
+
+### Descriptive Analysis
+
+The analysis seeaks to answer questions such as:
+
+- How many employees are currently in the organization?
+- How many employees does the company need to hire in the near future?
+- What is the age range of the employees in the organization?
+- How many employees have retired and what are the main reasons why employees keep leaving the organization?
+  
+### Dashboard Overview
+
+### Visualizations
+
+ Horizontal Bar Charts:
+ 
+ Three horizontal bar charts were created to visualize the following; employees by position(to show how many people work in the company) and employees by exit cause (why employees left 
+ the company). 
      
- Horizontal Bar Charts: Three horizontal bar charts were created to visualize the following; employees by position(to show how many people work in the company) and employees by exit cause (why employees left the company). 
+ Vertical Bar Chart:
+ 
+ A vertical chart to show employees by their age group.
 
- Vertical Bar Chart:A vertical chart to show employees by their age group.
+ Pie Charts: 
+ 
+ Three Pie charts were created to show the hiring quality of the employees of the company ranging from 0 -4,the future human resource needed for the company ranging from 
+ available, future, urgent and immediately which is decided based on the date of retirement of each employee. 
+ 
+ Lastly a pie chart to analyze the number of employees freshly hired and the 
+ number of remaining employees.
 
-Pie Charts: Three Pie charts were created to show the hiring quality of the employees of the company ranging from 0 -4,the future human resource needed for the company ranging from available, future, urgent and immediately which is decided based on the date of retirement of each employee.  Lastly a pie chart to analyze the number of employees freshly hired and the number of remaining employees.
+ Cards and Gauges:
+ 
+ Two gauges were created to visualize the employee performance and the score for hiring effectiveness. A card was created to show the total employees of the company.
 
- Cards and Gauges: Two gauges were created to visualize the employee performance and the score for hiring effectiveness. A card was created to show the total employees of the company.
+ Map: 
+ 
+ A map was also created to show where the employees of the company are located.
 
- Map: A map was also created to show where the employees of the company are located.
+ Filters: 
+ 
+ Lastly a filter was created to help you see the data for the active or departed employees.
 
- Filters: Lastly a filter was created to help you see the data for the active or departed employees.
-
- 7. Insights
+ 
+ ### Insights
     
  Across all designations, the total of employees ranged from 43 to 60. With an overall count of employees at 306.
  At a total number of 60, drivers had the highest employees and was 39.53% higher than clerks, which had the lowest number of employees at 43. Drivers account for 19.61% of the total 
@@ -69,45 +129,57 @@ Pie Charts: Three Pie charts were created to show the hiring quality of the empl
  While 35 employees left the company due to natural causes. The number of employees leaving for better opportunities signify the need for better retention services.
  The insights suggest a stable but aging workforce which needs fresh hires and a better retention service to ensure the longevity and growth of the organization.
 
- 8. Recommendations
+
+ ### Recommendations
      
- Optimize Employee Retention
- Investigate why so many employees (82) left without a clear reason and address any underlying concerns.
- Create an exit interview process to understand why employees leave, especially those seeking better opportunities (49 employees).
- Enhance workplace benefits and career growth opportunities to reduce turnover.
+ - Optimize Employee Retention
+ 
+ - Investigate why so many employees (82) left without a clear reason and address any underlying concerns. Create an exit interview process to understand why employees leave, especially 
+ those seeking better opportunities (49 employees). Enhance workplace benefits and career growth opportunities to reduce turnover.
 
- Focus on Workforce Planning
- With 73.2% of employees retired, prioritize hiring to fill immediate gaps. Employ 6 new hires now and plan for 3 more soon to sustain operations.
- Explore hiring younger talent to maintain a balanced age demographic, ensuring a mix of experience and innovation.
+ - Focus on Workforce Planning
+ 
+ With 73.2% of employees retired, prioritize hiring to fill immediate gaps. Employ 6 new hires now and plan for 3 more soon to sustain operations. Explore hiring younger talent to 
+ maintain a balanced age demographic, ensuring a mix of experience and innovation.
 
- Leverage Washington's Strength
+ - Leverage Washington's Strength
+   
  Washington, with the highest number of employees (86), appears to be a hub. Consider expanding operations or recruitment efforts in this area for its existing workforce potential.
- Improve Hiring Quality
+ 
+ - Improve Hiring Quality
 
- Address the hiring quality gap, as 46.08% of employees are rated at the lowest hiring score (0).
- Revamp the hiring process to focus on attracting skilled and high-quality candidates, potentially by refining job descriptions or targeting more qualified talent pools.
- Strengthen Clerk Recruitment
+ Address the hiring quality gap, as 46.08% of employees are rated at the lowest hiring score (0). Revamp the hiring process to focus on attracting skilled and high-quality candidates, 
+ potentially by refining job descriptions or targeting more qualified talent pools.
+ 
+- Strengthen Clerk Recruitment
+  
  Clerks, with the lowest count of employees (43), might indicate a role requiring extra attention. Evaluate if the workload is manageable or if additional hiring is needed.
 
- Targeted Engagement Programs
+ - Targeted Engagement Programs
+ - 
  Drivers, being the largest group (19.61%), could benefit from specific engagement programs to boost morale and productivity, ensuring their retention.
 
- Diversify Locations
+ - Diversify Locations
+   
  Balance employee distribution across locations to reduce dependency on Washington and strengthen representation in cities like London, which has the lowest count (60).
 
- Create a Succession Plan
+ - Create a Succession Plan
+   
  With a significant percentage of employees in their 30s, develop a succession planning strategy to ensure smooth transitions as the workforce ages.
 
- Communicate Growth Opportunities
+ - Communicate Growth Opportunities
+   
  Promote internal mobility to retain talent. Employees might leave for better opportunities because of unclear growth paths within the company.
 
- Enhance Data Tracking
+ - Enhance Data Tracking
+   
  Use better data tracking systems to monitor employee performance, retention, and satisfaction, ensuring continuous improvement in HR strategies.
 
-9. Summary
+
+## Summary
     
  The company has a stable workforce but faces challenges like high employee turnover and a need for better retention strategies. Drivers are the largest group, clerks the smallest, and 
- Washington is a key location. With many employees 
- retiring, hiring new talent, especially younger workers, is crucial. Improving hiring quality and understanding why employees leave can help strengthen the company for the future.    
+ Washington is a key location. With many employees retiring, hiring new talent, especially younger workers, is crucial. Improving hiring quality and understanding why employees leave can 
+ help strengthen the company for the future.    
 
 
