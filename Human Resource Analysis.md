@@ -64,8 +64,7 @@ Duplicates, missing data and inconsistent data were rechecked for all columns to
 
 Snapshot of prepared data:
 
-
-
+![Screenshot 2024-11-16 130035](https://github.com/user-attachments/assets/e73940ff-70fd-4c8a-b1f4-ee5c75c430fa)
 
 
 ### Descriptive Analysis
@@ -76,6 +75,7 @@ The analysis seeaks to answer questions such as:
 - How many employees does the company need to hire in the near future?
 - What is the age range of the employees in the organization?
 - How many employees have retired and what are the main reasons why employees keep leaving the organization?
+
   
 ### Dashboard Overview
 
@@ -181,7 +181,7 @@ The analysis seeaks to answer questions such as:
  Use better data tracking systems to monitor employee performance, retention, and satisfaction, ensuring continuous improvement in HR strategies.
 
 
-## Summary
+### Conclusion
     
  The company has a stable workforce but faces challenges like high employee turnover and a need for better retention strategies. Drivers are the largest group, clerks the smallest, and 
  Washington is a key location. With many employees retiring, hiring new talent, especially younger workers, is crucial. Improving hiring quality and understanding why employees leave can 
