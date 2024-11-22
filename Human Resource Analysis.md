@@ -77,6 +77,9 @@ The analysis seeaks to answer questions such as:
   
 ### Dashboard Overview
 
+![Screenshot 2024-11-22 123854](https://github.com/user-attachments/assets/de4cd57e-cac4-440e-9907-df36bbc89652)
+
+
 ### Visualizations
 
  Horizontal Bar Charts:
