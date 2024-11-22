@@ -37,7 +37,7 @@
  
  ## Link to Report
  
- https://drive.google.com/file/d/1wspQ-Oplk1X5ubJi1p2zhiFAb9SCaP8a/view?usp=sharing
+ https://drive.google.com/file/d/1lF_B5XAlqGZy_vw72ERNWmi0SWb27Olz/view?usp=sharing
 
 
 ## Source
@@ -214,7 +214,7 @@ Data was sourced from: https://www.kaggle.com/datasets/gabrielramos87/an-online-
 
 ### Total Sales
 
-A Total sales of 62.97M was generated withing the time period of November 2018 to December 2019. with the highest sales been recorded in the early stage of the data, which could indicate a strong launch of the business or a seasonal demand of products.There is also a positve correlatoin between the total sales and total quantity sold 
+A Total sales of 62.97M was generated withing the time period of November 2018 to December 2019. With the highest sales been recorded in the early stage of the data, which could indicate a strong launch of the business or a seasonal demand of products.There is also a positve correlatoin between the total sales and total quantity sold 
              
 #### Day Sales
 
